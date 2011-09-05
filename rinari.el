@@ -490,8 +490,9 @@ renders and redirects to find the final controller or view."
    (log "o" ((t . "log/")) nil)
    (worker "w" ((t . "lib/workers/")) nil)
    (public "p" ((t . "public/")) nil)
-   (stylesheet "y" ((t . "public/stylesheets/.*")) nil)
-   (javascript "j" ((t . "public/javascripts/.*")) nil)
+   (stylesheet "y" ((t . "app/assets/stylesheets/")) nil)
+   (javascript "j" ((t . "app/assets/javascripts/")) nil)
+   (assets     "a" ((t . "app/assets/")) nil)
    (plugin "l" ((t . "vendor/plugins/")) nil)
    (file-in-project "f" ((t . ".*")) nil)
    (by-context
